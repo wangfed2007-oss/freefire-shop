@@ -4,7 +4,7 @@ export default function Custom500() {
   return (
     <>
       <Head>
-        <title>Erreur serveur - Free Fire Shop</title>
+        <title>Server Error - Free Fire Shop</title>
       </Head>
       <div style={{
         minHeight: '100vh',
@@ -25,14 +25,14 @@ export default function Custom500() {
           fontSize: '2rem',
           color: 'white',
           marginBottom: '20px'
-        }}>Erreur serveur</h2>
+        }}>Server Error</h2>
         <p style={{
           color: '#AAA',
           fontSize: '1.1rem',
           marginBottom: '30px',
           maxWidth: '500px'
         }}>
-          Désolé, une erreur interne s'est produite. Nos équipes travaillent pour résoudre le problème.
+          Sorry, an internal error occurred. Our team is working to resolve it.
         </p>
         <a href="/" style={{
           background: '#FF6B35',
@@ -48,7 +48,7 @@ export default function Custom500() {
           onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
           onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}
         >
-          Retour à l'accueil
+          Back to Home
         </a>
       </div>
     </>
